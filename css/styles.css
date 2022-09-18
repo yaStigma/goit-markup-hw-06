@@ -926,7 +926,7 @@ border-radius: 4px;
   
    width: 16px;
   height: 15px;
-  line-height: 0;
+  letter-spacing: 0;
 
 }
 .check-input:checked + .check {

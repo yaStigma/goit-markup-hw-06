@@ -556,12 +556,21 @@
           <p class="ftr-social-title">Підпишіться на розсилку</p>
           <form class="ftr-form">
             <label class="ftr-form-label">
-              <input class="ftr-input" type="email" name="email" title="Введіть електронну пошту" placeholder="E-mail" required />
+              <input
+                class="ftr-input"
+                type="email"
+                name="email"
+                title="Введіть електронну пошту"
+                placeholder="E-mail"
+                required
+              />
             </label>
             <button class="ftr-form-bt" type="submit">
-              Підписатися <svg class="icon-ftr-bt">
+              Підписатися
+              <svg class="icon-ftr-bt">
                 <use href="./images/icons.svg#icon-send"></use>
-              </svg> </button>
+              </svg>
+            </button>
           </form>
         </div>
       </div>
@@ -576,43 +585,75 @@
         <p class="modal-title">Залиште свої дані, ми вам передзвонимо</p>
         <form class="form-modal">
           <div class="form-input">
-          <label class="modal-label">
-            <span class="modal-text">Ім'я</span>
-            <input class="modal-input" type="text" name="username" title="Введіть ім'я" autofocus required />
-          <span class="modal-icon"> <svg class="icon-input">
-            <use href="./images/icons.svg#icon-person"></use>
-          </svg> </span>
-          </label>
-          <label class="modal-label">
-            <span class="modal-text">Телефон</span>
-            <input class="modal-input" type="tel" name="phone_number" title="Введіть номер телефону" required />
-            <span class="modal-icon"> <svg class="icon-input">
-              <use href="./images/icons.svg#icon-phone"></use>
-            </svg> </span>
-          </label>
-          <label class="modal-label">
-            <span class="modal-text">Пошта</span>
-            <input class="modal-input" type="email" name="email" title="Введіть електронну пошту" required />
-          <span class="modal-icon"> <svg class="icon-input">
-            <use href="./images/icons.svg#icon-email"></use>
-          </svg> </span>
-          </label>
-          
-          <label class="modal-label">
-            <span class="modal-text">Коментар</span>
-            <textarea class="modal-textarea" rows="5" name="comment" title="Додайте коментар" placeholder="Введіть текст"></textarea>
-          </label>
-</div>
+            <label class="modal-label">
+              <span class="modal-text">Ім'я</span>
+              <input
+                class="modal-input"
+                type="text"
+                name="username"
+                title="Введіть ім'я"
+                autofocus
+                required
+              />
+              <span class="modal-icon">
+                <svg class="icon-input">
+                  <use href="./images/icons.svg#icon-person"></use>
+                </svg>
+              </span>
+            </label>
+            <label class="modal-label">
+              <span class="modal-text">Телефон</span>
+              <input
+                class="modal-input"
+                type="tel"
+                name="phone_number"
+                title="Введіть номер телефону"
+                required
+              />
+              <span class="modal-icon">
+                <svg class="icon-input">
+                  <use href="./images/icons.svg#icon-phone"></use>
+                </svg>
+              </span>
+            </label>
+            <label class="modal-label">
+              <span class="modal-text">Пошта</span>
+              <input
+                class="modal-input"
+                type="email"
+                name="email"
+                title="Введіть електронну пошту"
+                required
+              />
+              <span class="modal-icon">
+                <svg class="icon-input">
+                  <use href="./images/icons.svg#icon-email"></use>
+                </svg>
+              </span>
+            </label>
+
+            <label class="modal-label">
+              <span class="modal-text">Коментар</span>
+              <textarea
+                class="modal-textarea"
+                rows="5"
+                name="comment"
+                title="Додайте коментар"
+                placeholder="Введіть текст"
+              ></textarea>
+            </label>
+          </div>
           <label class="modal-label-check">
             <input class="check-input hidden-check" type="checkbox" name="license-agreement" />
             <span class="check">
               <svg class="icon-check">
-                <use href="./images/icons.svg#icon-icon-check"></use> 
+                <use href="./images/icons.svg#icon-icon-check"></use>
               </svg>
             </span>
             <span class="modal-text-checkbox">
-              Погоджуюся з розсилкою та приймаю <a href="#" class="link-checkbox">Умови договору</a> 
-            </span></label>
+              Погоджуюся з розсилкою та приймаю <a href="#" class="link-checkbox">Умови договору</a>
+            </span></label
+          >
 
           <button class="modal-bt" type="submit">Відправити</button>
         </form>
