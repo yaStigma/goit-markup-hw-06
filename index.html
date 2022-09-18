@@ -556,11 +556,40 @@
     </footer>
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
-        <button class="modal-bt" type="button" data-modal-close>
+        <button class="modal-bt-close" type="button" data-modal-close>
           <svg class="bt-close">
             <use href="./images/icons.svg#icon-close"></use>
           </svg>
         </button>
+        <p class="modal-title">Залиште свої дані, ми вам передзвонимо</p>
+        <form class="form-modal">
+          <div class="form-input">
+          <label class="modal-label">
+            <span class="modal-text">Ім'я</span>
+            <input class="modal-input" type="text" name="username" title="Введіть ім'я" autofocus required />
+          </label>
+          <label class="modal-label">
+            <span class="modal-text">Телефон</span>
+            <input class="modal-input" type="tel" name="phone_number" title="Введіть номер телефону" required />
+          </label>
+          <label class="modal-label">
+            <span class="modal-text">Пошта</span>
+            <input class="modal-input" type="email" name="email" title="Введіть електронну пошту" required />
+          </label>
+          <label class="modal-label">
+            <span class="modal-text">Коментар</span>
+            <textarea class="modal-textarea" rows="5" name="comment" title="Додайте коментар" placeholder="Введіть текст"></textarea>
+          </label>
+</div>
+          <label class="modal-label-check">
+            <input type="checkbox" name="hobby" value="reading" />
+            <span class="modal-text-checkbox">
+              Погоджуюся з розсилкою та приймаю <a href="#" class="link-checkbox">Умови договору</a> 
+            </span></label
+          >
+
+          <button class="modal-bt" type="submit">Відправити</button>
+        </form>
       </div>
     </div>
 
