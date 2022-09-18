@@ -847,16 +847,15 @@ letter-spacing: 0.03em;
 
   margin-right: 8px;
 
-  width: 50px;
-  height: 50px;
+  width: 15px;
+  height: 16px;
 
   border: 2px solid var(--color-text-topic);
 border-radius: 4px;
 }
-.check:checked {
-  
+.check-input:checked + .check {
 background-image: url('../images/icon-check.svg');
-background-color: var(--background-color-bt-accent);
+background-color: var(--background-color-bt-accent);  
 background-size: contain;
 background-origin: border-box;
 border-color: transparent;
