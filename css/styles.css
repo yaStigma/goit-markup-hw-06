@@ -286,9 +286,14 @@ img {
   display: flex;
 flex-direction: column;
 }
+.ftr-form {
+  display: flex;
+  gap: 12px;
+}
 .ftr-input {
+  display: block;
   padding: 15px 16px;
-  margin-right: 12px;
+ 
   outline:none;
 
   transition-property: color, border-color;
